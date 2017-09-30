@@ -1,0 +1,21 @@
+body {
+    font-family: $font_default;
+    background-color: $main_color;
+    //width: 100%;
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
+
+input[type],
+button {
+    border-radius: 0px;
+    &::placeholder {
+        color: $gray_dark;
+    }
+}
+
+input[type="submit"], button {
+    height: auto;
+}

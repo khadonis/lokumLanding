@@ -1,0 +1,21 @@
+//configs
+@import "configs/variables";
+@import "configs/mixins";
+@import "configs/placeholders";
+@import "configs/fonts";
+//base
+@import "base/normalize";
+@import "base/skeleton";
+@import "base/base";
+//modules
+@import "modules/header";
+@import "modules/footer";
+@import "modules/nav";
+@import "modules/info";
+@import "modules/sprite";
+@import "modules/icons";
+@import "modules/form";
+//utils
+@import "helpers/utils";
+//vendor
+@import "vendor/sweetalert2-min";

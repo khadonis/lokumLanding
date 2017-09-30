@@ -1,0 +1,93 @@
+header {
+    background-image: url('../images/_Final_Lokum_7_2.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    min-height: 276px;
+    @media (min-width: 550px) {
+        min-height: 76vh;
+    }
+    @media (min-width: 1000px) {
+        min-height: 70vh;
+        width: 100%;
+        background-size: 100% auto;
+    }
+    @media (min-width: 1200px) {
+        min-height: 86vh;
+    }
+}
+
+.logo {
+    .form & {
+        display: none;
+    }
+    @media (min-width: 550px) {
+        display: none;
+        .form & {
+            img {
+                width: 195px;
+                margin-bottom: 30px;
+            }
+            display: block;
+        }
+        padding-top: 0;
+    }
+    text-align: center;
+    padding-top: 24px;
+    img {
+        width: 116px;
+    }
+}
+
+.pat1 {
+    padding: 15px;
+    position: absolute;
+    width: 90%;
+    img {
+        display: block;
+        width: 25%;
+    }
+    @media (min-width: 1000px) {
+        position: absolute;
+        width: 90%;
+    }
+    @media (min-width: 1200px) {
+        img {
+            width: 16%;
+        }
+    }        
+}
+
+.pat2 {
+    float: right;
+    margin-right: 37%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: right;
+    img {
+        width: 25%;
+    }
+    @media (min-width: 1000px) {
+        margin-top: 0;
+        padding: 15px;
+        margin-bottom: 20px;
+        width: 80%;
+        img {
+            width: 17%;
+        }
+    }
+    @media (min-width: 1200px) {
+        img {
+            width: 14%;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.pat1,
+.pat2 {
+    display: none;
+    @media (min-width: 550px) {
+        display: block;
+    }
+}
